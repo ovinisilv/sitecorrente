@@ -15,9 +15,11 @@ export function Footer() {
           <a href={siteConfig.socials.instagram} target="_blank" rel="noopener noreferrer" className="hover:text-white">
             Instagram
           </a>
-          <a href={`mailto:${siteConfig.socials.email}`} className="hover:text-white">
-            E-mail
-          </a>
+          {siteConfig.socials.email && (
+            <a href={`mailto:${siteConfig.socials.email}`} className="hover:text-white">
+              E-mail
+            </a>
+          )}
           <a href="#" className="hover:text-white">
             Termos de Uso
           </a>

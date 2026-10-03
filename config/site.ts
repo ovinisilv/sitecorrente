@@ -9,6 +9,7 @@ export const siteConfig = {
   startingPrice: "79",
   socials: {
     instagram: "https://instagram.com/sitecorrente",
+    email: "",
   },
   plans: [
     {
